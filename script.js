@@ -91,14 +91,13 @@ const imageHtml = product.images && product.images.length
 
 return `<article class="product-card">
   <div class="product-visual">${tag}${imageHtml}</div>
-    <div class="product-visual">${tag}<span class="emoji" aria-hidden="true">${product.emoji}</span></div>
-    <div class="product-info">
-      <h3>${product.name}</h3>
-      <p class="product-desc">${product.desc}</p>
-      <div class="price-line"><span class="sale-price">${formatVND(product.price)}</span><span class="old-price">${formatVND(product.oldPrice)}</span></div>
-      <a class="buy-btn" href="${zaloLink(product)}" target="_blank" rel="noopener">HỎI MUA QUA ZALO ↗</a>
-    </div>
-  </article>`;
+<div class="product-info">
+  <h3>${product.name}</h3>
+  <p class="product-desc">${product.desc}</p>
+  <div class="price-line"><span class="sale-price">${formatVND(product.price)}</span><span class="old-price">${formatVND(product.oldPrice)}</span></div>
+  <a class="buy-btn" href="${zaloLink(product)}" target="_blank" rel="noopener">HỎI MUA QUA ZALO ↗</a>
+</div>
+</article>`;
 }
 document.getElementById("toyProducts").innerHTML = products.toys.map(productCard).join("");
 document.getElementById("batteryProducts").innerHTML = products.batteries.map(productCard).join("");
