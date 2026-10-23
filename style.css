@@ -32,3 +32,14 @@
   justify-content: center;
   background: transparent;
 }
+.hero-art img {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hero-art {
+  max-width: 220px;
+  margin: 0 auto;
+}
