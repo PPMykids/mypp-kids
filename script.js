@@ -1,7 +1,7 @@
 // DỮ LIỆU MẪU: thay tên, mô tả, giá và biểu tượng bằng thông tin sản phẩm thực tế.
 const ZALO_NUMBER = "0964349029";
 const products = {
-  toys: {
+  toys:[ {
   name: "Bộ Xếp Hình Nam Châm 64, 100  chi tiết, Đồ Chơi Ghép Hình Nam Châm mykids",
   desc: " Bộ Đồ chơi xếp hình nam châm, nam châm xếp hình thông minh, chất liệu nhựa nguyên sinh ABS cao cấp
 Thông tin sản phẩm:
@@ -28,7 +28,7 @@ THUỘC TÍNH SẢN PHẨM
   emoji: "🚗",
   tag: "SẢN PHẨM MỚI",
   code: "TOY005"
-},
+} ],
 
 
   batteries: [
