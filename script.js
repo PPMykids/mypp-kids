@@ -1,12 +1,35 @@
 // DỮ LIỆU MẪU: thay tên, mô tả, giá và biểu tượng bằng thông tin sản phẩm thực tế.
 const ZALO_NUMBER = "0964349029";
 const products = {
-  toys: [
-    {name:"Bộ xếp hình sáng tạo 3D", desc:"Đồ chơi lắp ghép giúp bé rèn luyện sự khéo léo và tư duy.", price:129000, oldPrice:199000, emoji:"🧩", tag:"BÁN CHẠY", code:"TOY-001"},
-    {name:"Bộ lắp ráp kỹ sư nhí", desc:"Nhiều chi tiết lắp ghép, phù hợp cho hoạt động học qua chơi.", price:159000, oldPrice:219000, emoji:"🛠️", tag:"ƯU ĐÃI", code:"TOY-002"},
-    {name:"Trò chơi ghi nhớ hình ảnh", desc:"Trò chơi tương tác giúp bé luyện trí nhớ và khả năng quan sát.", price:89000, oldPrice:119000, emoji:"🎯", tag:"", code:"TOY-003"},
-    {name:"Bảng bận rộn Montessori", desc:"Đồ chơi thực hành kỹ năng cơ bản; kiểm tra độ tuổi khuyến nghị trước khi mua.", price:189000, oldPrice:249000, emoji:"🧸", tag:"GỢI Ý", code:"TOY-004"}
-  ],
+  toys: {
+  name: "Bộ Xếp Hình Nam Châm 64, 100  chi tiết, Đồ Chơi Ghép Hình Nam Châm mykids",
+  desc: " Bộ Đồ chơi xếp hình nam châm, nam châm xếp hình thông minh, chất liệu nhựa nguyên sinh ABS cao cấp
+Thông tin sản phẩm:
+👉 Tên sản phẩm: Đồ chơi xếp hình nam châm, nam châm xếp hình thông minh
+👉 Chất liệu: Nhựa ABS cao cấp, Nam Châm Từ Tính.
+👉 Chủng loại: 64PCS và 100PCS
+👉 Độ tuổi phù hợp: Trên 2 tuổi trở lên
+Công dụng sản phẩm:
+👉 Kích thích phát triển tư duy hình học và không gian, đồ chơi sử dụng lực từ tính của các thanh nam châm giúp bé có thể xây dựng được bất cứ hình khối nào mà bé tưởng tượng.
+👉 Khám phá và phát triển sự khéo léo của bé, bé sẽ kiến tạo được nhiều mô hình, mô hình càng phức tạp.
+👉 Mẹ có thể dạy bé tại nhà qua việc xếp thành con số, con chữ, học đếm,... Việc vừa học vừa chơi giúp bé hào hứng khi học bài và nhớ lâu.
+👉 Sản phẩm bao gồm nam châm và thanh nhựa ABS an toàn tuyệt đối, không gây độc hại cho trẻ.
+👉 Thiết kế nhiều màu sắc đa dạng, kích thích hứng thú chơi của trẻ.
+THUỘC TÍNH SẢN PHẨM
+• Màu sắc: Nhiều màu
+• Kích thước: Nhiều kích thước các chi tiết khác nhau
+• Trọng lượng: 900g
+• Chất liệu: Nhựa ABS an toàn tuyệt đối
+• Hướng dẫn sử dụng: Bóc sản phẩm ra khỏi vỏ hộp, lắp ghép các chi tiết với nhau.
+• Độ tuổi: 2 tuổi trở lên
+.",
+  price: 210000,
+  oldPrice: 310000,
+  emoji: "🚗",
+  tag: "SẢN PHẨM MỚI",
+  code: "TOY005"
+},
+
   batteries: [
     {name:"Pin sạc 18650", desc:"Vui lòng xác nhận dung lượng, dòng xả và kích thước theo nhu cầu.", price:35000, oldPrice:49000, emoji:"🔋", tag:"PHỔ BIẾN", code:"BAT-001"},
     {name:"Pin LiPo 3.7V", desc:"Cần đối chiếu kích thước, dung lượng, dây và đầu nối trước khi mua.", price:45000, oldPrice:59000, emoji:"🔌", tag:"", code:"BAT-002"},
