@@ -43,3 +43,12 @@
   max-width: 220px;
   margin: 0 auto;
 }
+<CodeBlock language="css" editable>
+.product-image {
+width: 100%;
+height: 220px;
+object-fit: contain;
+display: block;
+margin: 0 auto;
+}
+</CodeBlock>
