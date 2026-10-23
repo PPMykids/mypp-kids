@@ -16,6 +16,19 @@
 .brand-mark img {
   width: 56px;
   height: 56px;
+  max-width: 56px;
   object-fit: contain;
   display: block;
+  border-radius: 50%;
+}
+
+.brand-mark {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
 }
