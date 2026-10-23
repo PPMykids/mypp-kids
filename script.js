@@ -30,6 +30,7 @@ THUỘC TÍNH SẢN PHẨM
   code: "TOY005"
 },
 
+
   batteries: [
     {name:"Pin sạc 18650", desc:"Vui lòng xác nhận dung lượng, dòng xả và kích thước theo nhu cầu.", price:35000, oldPrice:49000, emoji:"🔋", tag:"PHỔ BIẾN", code:"BAT-001"},
     {name:"Pin LiPo 3.7V", desc:"Cần đối chiếu kích thước, dung lượng, dây và đầu nối trước khi mua.", price:45000, oldPrice:59000, emoji:"🔌", tag:"", code:"BAT-002"},
