@@ -85,7 +85,12 @@ function zaloLink(product) {
 }
 function productCard(product) {
   const tag = product.tag ? `<span class="visual-tag">${product.tag}</span>` : "";
-  return `<article class="product-card">
+const imageHtml = product.images && product.images.length
+  ? `<img class="product-image" src="${product.images[0]}" alt="${product.name}" loading="lazy">`
+  : `<span class="emoji" aria-hidden="true">${product.emoji}</span>`;
+
+return `<article class="product-card">
+  <div class="product-visual">${tag}${imageHtml}</div>
     <div class="product-visual">${tag}<span class="emoji" aria-hidden="true">${product.emoji}</span></div>
     <div class="product-info">
       <h3>${product.name}</h3>
