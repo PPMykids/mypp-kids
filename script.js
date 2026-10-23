@@ -25,10 +25,18 @@ Thuộc tính:
       price: 210000,
       oldPrice: 310000,
       emoji: "🧲",
-      tag: "SẢN PHẨM MỚI",
-      code: "TOY005"
-    }
-  ],
+tag: "SẢN PHẨM MỚI",
+images: [
+  "TOY005-1.jpg",
+  "TOY005-2.jpg",
+  "TOY005-3.jpg"
+  "TOY005-4.jpg"
+  "TOY005-5.jpg"
+  "TOY005-6.jpg"
+  "TOY005-7.jpg"
+  "TOY005-8.jpg"
+],
+code: "TOY005"
 
   batteries: [
     {
