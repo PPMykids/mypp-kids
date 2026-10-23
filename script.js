@@ -113,3 +113,29 @@ mainNav.querySelectorAll("a").forEach(link => link.addEventListener("click", () 
   mainNav.classList.remove("open");
   menuToggle.setAttribute("aria-expanded", "false");
 }));
+(async function testSupabaseConnection() {
+  const SUPABASE_URL = "https://xfwnoygchbpasskihuib.supabase.co";
+  const SUPABASE_PUBLISHABLE_KEY = "DAN_PUBLISHABLE_KEY_CUA_BAN_VAO_DAY";
+
+  try {
+    const client = window.supabase.createClient(
+      SUPABASE_URL,
+      SUPABASE_PUBLISHABLE_KEY
+    );
+
+    const { data, error } = await client
+      .from("products")
+      .select("id, name, product_code, price")
+      .limit(5);
+
+    if (error) {
+      console.error("Lỗi Supabase:", error.message);
+      return;
+    }
+
+    console.log("Kết nối Supabase thành công!");
+    console.log("Sản phẩm đọc được:", data);
+  } catch (err) {
+    console.error("Không thể kết nối:", err.message);
+  }
+})();
